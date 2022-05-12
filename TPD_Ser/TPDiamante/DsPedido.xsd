@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsPedido" targetNamespace="http://tempuri.org/DsPedido.xsd" xmlns:mstns="http://tempuri.org/DsPedido.xsd" xmlns="http://tempuri.org/DsPedido.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsPedido" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsPedido" msprop:Generator_UserDSName="DsPedido">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DtPedido" msprop:Generator_TableClassName="DtPedidoDataTable" msprop:Generator_TableVarName="tableDtPedido" msprop:Generator_TablePropName="DtPedido" msprop:Generator_RowDeletingName="DtPedidoRowDeleting" msprop:Generator_RowChangingName="DtPedidoRowChanging" msprop:Generator_RowEvHandlerName="DtPedidoRowChangeEventHandler" msprop:Generator_RowDeletedName="DtPedidoRowDeleted" msprop:Generator_UserTableName="DtPedido" msprop:Generator_RowChangedName="DtPedidoRowChanged" msprop:Generator_RowEvArgName="DtPedidoRowChangeEvent" msprop:Generator_RowClassName="DtPedidoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPed" msprop:Generator_ColumnVarNameInTable="columnIdPed" msprop:Generator_ColumnPropNameInRow="IdPed" msprop:Generator_ColumnPropNameInTable="IdPedColumn" msprop:Generator_UserColumnName="IdPed" type="xs:string" minOccurs="0" />
+              <xs:element name="articulo" msprop:Generator_ColumnVarNameInTable="columnarticulo" msprop:Generator_ColumnPropNameInRow="articulo" msprop:Generator_ColumnPropNameInTable="articuloColumn" msprop:Generator_UserColumnName="articulo" type="xs:string" minOccurs="0" />
+              <xs:element name="DesArt" msprop:Generator_ColumnVarNameInTable="columnDesArt" msprop:Generator_ColumnPropNameInRow="DesArt" msprop:Generator_ColumnPropNameInTable="DesArtColumn" msprop:Generator_UserColumnName="DesArt" type="xs:string" minOccurs="0" />
+              <xs:element name="Linea" msprop:Generator_ColumnVarNameInTable="columnLinea" msprop:Generator_ColumnPropNameInRow="Linea" msprop:Generator_ColumnPropNameInTable="LineaColumn" msprop:Generator_UserColumnName="Linea" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

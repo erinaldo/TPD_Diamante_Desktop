@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsSol" targetNamespace="http://tempuri.org/DsSol.xsd" xmlns:mstns="http://tempuri.org/DsSol.xsd" xmlns="http://tempuri.org/DsSol.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsSol" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsSol" msprop:Generator_UserDSName="DsSol">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DtSol" msprop:Generator_TableClassName="DtSolDataTable" msprop:Generator_TableVarName="tableDtSol" msprop:Generator_TablePropName="DtSol" msprop:Generator_RowDeletingName="DtSolRowDeleting" msprop:Generator_RowChangingName="DtSolRowChanging" msprop:Generator_RowEvHandlerName="DtSolRowChangeEventHandler" msprop:Generator_RowDeletedName="DtSolRowDeleted" msprop:Generator_UserTableName="DtSol" msprop:Generator_RowChangedName="DtSolRowChanged" msprop:Generator_RowEvArgName="DtSolRowChangeEvent" msprop:Generator_RowClassName="DtSolRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdSol" msprop:Generator_ColumnVarNameInTable="columnIdSol" msprop:Generator_ColumnPropNameInRow="IdSol" msprop:Generator_ColumnPropNameInTable="IdSolColumn" msprop:Generator_UserColumnName="IdSol" type="xs:string" minOccurs="0" />
+              <xs:element name="NumLinea" msprop:Generator_ColumnVarNameInTable="columnNumLinea" msprop:Generator_ColumnPropNameInRow="NumLinea" msprop:Generator_ColumnPropNameInTable="NumLineaColumn" msprop:Generator_UserColumnName="NumLinea" type="xs:int" minOccurs="0" />
+              <xs:element name="Articulo" msprop:Generator_ColumnVarNameInTable="columnArticulo" msprop:Generator_ColumnPropNameInRow="Articulo" msprop:Generator_ColumnPropNameInTable="ArticuloColumn" msprop:Generator_UserColumnName="Articulo" type="xs:string" minOccurs="0" />
+              <xs:element name="DesArt" msprop:Generator_ColumnVarNameInTable="columnDesArt" msprop:Generator_ColumnPropNameInRow="DesArt" msprop:Generator_ColumnPropNameInTable="DesArtColumn" msprop:Generator_UserColumnName="DesArt" type="xs:string" minOccurs="0" />
+              <xs:element name="Linea" msprop:Generator_ColumnVarNameInTable="columnLinea" msprop:Generator_ColumnPropNameInRow="Linea" msprop:Generator_ColumnPropNameInTable="LineaColumn" msprop:Generator_UserColumnName="Linea" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

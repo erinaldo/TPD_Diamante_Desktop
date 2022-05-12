@@ -1,0 +1,38 @@
+'VALIDA QUE EL MONTO Y EL TOTAL DE ARTICULOS SEAN LOS CORRECTOS
+                                    Try
+                                        conexion_universal.conectar() 'ABRE LA CONEXION A LA BD DEL SAP
+                                        'ALMACENA LA CONSUALTA
+                                        SQLValidaRef = "SELECT T0.DocEntry, T0.DocNum, T0.CardCode, T0.DocTotal, T0.Comments, T1.ItemCode "
+                                        SQLValidaRef &= "INTO #Temp_Old "
+                                        SQLValidaRef &= "FROM OINV T0 INNER JOIN INV1 T1 ON T1.DocEntry = T0.DocEntry "
+                                        SQLValidaRef &= "WHERE DocNum = 52384 "
+
+                                        SQLValidaRef &= "SELECT T0.DocEntry, T0.DocNum, T0.CardCode, T0.DocTotal, T0.Comments, T1.ItemCode "
+                                        SQLValidaRef &= "INTO #Temp_New "
+                                        SQLValidaRef &= "FROM OINV T0 INNER JOIN INV1 T1 ON T1.DocEntry = T0.DocEntry "
+                                        SQLValidaRef &= "WHERE DocNum = 53304 "
+
+                                        SQLValidaRef &= "SELECT "
+                                        SQLValidaRef &= "CASE WHEN ItemCode IN (SELECT ItemCode FROM #Temp_New) then 1 else 0 END AS ItemCode_OK, "
+                                        SQLValidaRef &= "CASE WHEN DocTotal IN (SELECT DocTotal FROM #Temp_New) then 1 else 0	END AS DocTotal_OK "
+                                        SQLValidaRef &= "FROM #Temp_Old "
+
+                                        SQLValidaRef &= "drop table #Temp_Old "
+                                        SQLValidaRef &= "drop table #Temp_New "
+
+                                        'ALAMACENA EN UN COMMAND LA CONSULTA
+                                        conexion_universal.sql_tem = New SqlCommand(SQLValidaRef, conexion_universal.conexion_uni)
+                                        'EJECUTA LA CONSULTA
+                                        conexion_universal.rd_tem = conexion_universal.sql_tem.ExecuteReader
+                                        'RECORRE LA CONSULTA
+                                        While conexion_universal.rd_tem.Read
+                                            'If () Then
+
+                                            'End If
+                                        End While
+
+
+
+                                    Catch ex As Exception
+
+                                    End Try

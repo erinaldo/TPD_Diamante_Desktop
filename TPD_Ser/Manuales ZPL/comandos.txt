@@ -1,0 +1,182 @@
+- ^A Scalable/Bitmapped Font 
+- ^A@ Use Font Name to Call Font 
+- ^B0 Aztec Bar Code Parameters 
+- ^B1 Code 11 Bar Code 
+- ^B2 Interleaved 2 of 5 Bar Code 
+- ^B3 Code 39 Bar Code 
+- ^B4 Code 49 Bar Code 
+- ^B5 Planet Code bar code 
+- ^B7 PDF417 Bar Code 
+- ^B8 EAN-8 Bar Code 
+- ^B9 UPC-E Bar Code 
+- ^BA Code 93 Bar Code 
+- ^BB CODABLOCK Bar Code 
+- ^BC Code 128 Bar Code (Subsets A, B, and C) 
+- ^BD UPS MaxiCode Bar Code 
+- ^BE EAN-13 Bar Code 
+- ^BF MicroPDF417 Bar Code 
+- ^BI Industrial 2 of 5 Bar Codes 
+- ^BJ Standard 2 of 5 Bar Code 
+- ^BK ANSI Codabar Bar Code 
+- ^BL LOGMARS Bar Code 
+- ^BM MSI Bar Code 
+- ^BO Aztec Bar Code Parameters 
+- ^BP Plessey Bar Code 
+- ^BQ QR Code Bar Code 
+- ^BR GS1 Databar 
+- ^BS UPC/EAN Extensions 
+- ^BT TLC39 Bar Code 
+- ^BU UPC-A Bar Code 
+- ^BX Data Matrix Bar Code 
+- ^BY Bar Code Field Default 
+- ^BZ POSTAL Bar Code 
+- ^CC ~CC Change Caret 
+- ^CD ~CD Change Delimiter 
+- ^CF Change Alphanumeric Default Font 
+- ^CI Change International Font/Encoding 
+- ^CM Change Memory Letter Designation 
+- ^CN Cut Now 
+- ^CO Cache On 
+- ^CP Remove Label 
+- ^CT ~CT Change Tilde 
+- ^CV Code Validation 
+- ^CW Font Identifier 
+- ^DF Download Format 
+- ^FB Field Block 
+- ^FC Field Clock 
+- ^FD Field Data 
+- ^FH Field Hexadecimal Indicator 
+- ^FL Font Linking 
+- ^FM Multiple Field Origin Locations 
+- ^FN Field Number 
+- ^FO Field Origin 
+- ^FP Field Parameter 
+- ^FR Field Reverse Print 
+- ^FS Field Separator 
+- ^FT Field Typeset 
+- ^FV Field Variable 
+- ^FW Field Orientation 
+- ^FX Comment 
+- ^GB Graphic Box 
+- ^GC Graphic Circle 
+- ^GD Graphic Diagonal Line 
+- ^GE Graphic Ellipse 
+- ^GF Graphic Field 
+- ^GS Graphic Symbol 
+- ^HF Host Format 
+- ^HG Host Graphic 
+- ^HH Configuration Label Return 
+- ^HT Host Linked Fonts List 
+- ^HV Host Verification 
+- ^HW Host Directory List 
+- ^HY Upload Graphics 
+- ^HZ Display Description Information 
+- ^ID Object Delete 
+- ^IL Image Load 
+- ^IM Image Move 
+- ^IS Image Save 
+- ^JB Initialize Flash Memory 
+- ^JH Early Warning Settings 
+- ^JI Start ZBI (Zebra BASIC Interpreter) 
+- ^JJ Set Auxiliary Port 
+- ^JM Set Dots per Millimeter 
+- ^JS Sensor Select 
+- ^JT Head Test Interval 
+- ^JU Configuration Update 
+- ^JW Set Ribbon Tension 
+- ^JZ Reprint After Error 
+- ^KD Select Date and Time Format (for Real Time Clock)
+- ^KL Define Language 
+- ^KN Define Printer Name 
+- ^KP Define Password 
+- ^KV Kiosk Values 
+- ^LF List Font Links 
+- ^LH Label Home 
+- ^LL Label Length 
+- ^LR Label Reverse Print 
+- ^LS Label Shift 
+- ^LT Label Top 
+- ^MA Set Maintenance Alerts 
+- ^MC Map Clear 
+- ^MD Media Darkness 
+- ^MF Media Feed 
+- ^MI Set Maintenance Information Message 
+- ^ML Maximum Label Length 
+- ^MM Print Mode 
+- ^MN Media Tracking 
+- ^MP Mode Protection 
+- ^MT Media Type 
+- ^MU Set Units of Measurement 
+- ^MW Modify Head Cold Warning 
+- ^NC Select the Primary Network Device 
+- ^ND Change Network Settings 
+- ^NI Network ID Number 
+- ^NS Change Wired Networking Settings 
+- ^PA Advanced Text Properties 
+- ^PF Slew Given Number of Dot Rows 
+- ^PH ~PH Slew to Home Position 
+- ^PM Printing Mirror Image of Label 
+- ^PN Present Now 
+- ^PO Print Orientation 
+- ^PP ~PP Programmable Pause 
+- ^PQ Print Quantity 
+- ^PR Print Rate 
+- ^PW Print Width 
+- ^SC Set Serial Communications 
+- ^SE Select Encoding Table 
+- ^SF Serialization Field (with a Standard ^FD String) . . 306
+- ^SI Set Sensor Intensity 
+- ^SL Set Mode and Language (for Real-Time Clock) . . 310
+- ^SN Serialization Data 
+- ^SO Set Offset (for Real-Time Clock) 
+- ^SP Start Print 
+- ^SQ Halt ZebraNet Alert 
+- ^SR Set Printhead Resistance 
+- ^SS Set Media Sensors 
+- ^ST Set Date and Time (for Real-Time Clock) . . . . . . 320
+- ^SX Set ZebraNet Alert 
+- ^SZ Set ZPL Mode 
+- ^TB Text Blocks 
+- ^TO Transfer Object 
+- ^WD Print Directory Label 
+- ^XA Start Format 
+- ^XB Suppress Backfeed 
+- ^XF Recall Format 
+- ^XG Recall Graphic 
+- ^XS Set Dynamic Media Calibration 
+- ^XZ End Format 
+- ^ZZ Printer Sleep 
+- ^HL or ~HL Return RFID Data Log to Host 
+- ^HR Calibrate RFID Tag Position 
+- ^RA Read AFI or DSFID Byte 
+- ^RB Define EPC Data Structure 
+- ^RE Enable/Disable E.A.S. Bit 
+- ^RF Read or Write RFID Format 
+- ^RI Get RFID Tag ID 
+- ^RL Lock/Unlock RFID Tag Memory 
+- ^RM Enable RFID Motion 
+- ^RN Detect Multiple RFID Tags in Encoding Field . . . . 369
+- ^RQ Quick Write EPC Data and Passwords 
+- ^RR Specify RFID Retries for a Block or Enable Adaptive
+- ^RS Set Up RFID Parameters 
+- ^RT Read RFID Tag 
+- ^RU Read Unique RFID Chip Serialization 
+- ^RW Set RF Power Levels for Read and Write 
+- ^RZ Set RFID Tag Password and Lock Tag 
+- ^WF Encode AFI or DSFID Byte 
+- ^WT Write (Encode) Tag 
+- ^WV Verify RFID Encoding Operation 
+- ^KC Set Client Identifier (Option 61) 
+- ^NB Search for Wired Print Server during
+- ^NN Set SNMP 
+- ^NP Set Primary/Secondary Device 
+- ^NT Set SMTP 
+- ^NW Set Web Authentication Timeout Value 
+- ^WA Set Antenna Parameters 
+- ^WE Set WEP Mode 
+- ^WI Change Wireless Network Settings 
+- ^WL Set LEAP Parameters 
+- ^WP Set Wireless Password 
+- ^WR Set Transmit Rate 
+- ^WS Set Wireless Radio Card Values 
+- ^WX Configure Wireless Securities 

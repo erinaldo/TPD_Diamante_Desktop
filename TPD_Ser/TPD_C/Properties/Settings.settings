@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TPD_C.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="gRutaReportesProduccion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">servidordell</Value>
+    </Setting>
+    <Setting Name="gPasswordProduccion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@dministrator1</Value>
+    </Setting>
+    <Setting Name="gUserID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="gServerNameProduccion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">servidordell</Value>
+    </Setting>
+    <Setting Name="gDatabaseNameSAPProduccion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SBO_TPD</Value>
+    </Setting>
+    <Setting Name="gDatabaseNameTMPProduccion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TPM</Value>
+    </Setting>
+    <Setting Name="gDatabaseNameZPRUE2018" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ZPRUEBAS31OCT18</Value>
+    </Setting>
+    <Setting Name="gDatabaseNameSBO_Diamante" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SBO-Diamante-productiva</Value>
+    </Setting>
+    <Setting Name="gDatabaseNameZPRUE2019" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ZPRUEBAS16ABR2019</Value>
+    </Setting>
+    <Setting Name="gDatabaseNameTPM20FEB19" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TPM09FEB2019</Value>
+    </Setting>
+    <Setting Name="gRutaReportesPruebas" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">servidordell</Value>
+    </Setting>
+    <Setting Name="gServerNamePruebas" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">servidordell</Value>
+    </Setting>
+    <Setting Name="gDatabaseNameSAPPruebas" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SBO_TPD</Value>
+    </Setting>
+    <Setting Name="gPasswordPruebas" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@dministrator1</Value>
+    </Setting>
+    <Setting Name="gDatabaseNameTMPPruebas" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TPM</Value>
+    </Setting>
+    <Setting Name="AMBIENTE_PRODUCCION" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,3 @@
+https://www.zebra.com/us/en/support-downloads/knowledge-articles/how-to-preview-a-zpl-label-with-a-network-printer.html
+http://labelary.com/zpl.html
+https://simple-zpl2.readthedocs.io/en/latest/api/simple_zpl2.zpl_document.html
